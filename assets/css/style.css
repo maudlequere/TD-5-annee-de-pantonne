@@ -100,7 +100,7 @@ Styles pantone of the year
 
 */
 
-.pantone-of-the-year-item >h3 {
+.pantone-of-the-year-item h3 {
     height: 2.5em;
     background: #000;
     color: #fff;
