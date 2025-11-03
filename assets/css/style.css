@@ -50,7 +50,7 @@ Contenu histoire et principe du Pantone
 -------------------------------------------------------------- */
 
 /* 5 - Déclarations CSS qui s'applique au conteneur des blocs histoire et principe */
-main {
+main>div {
     width: 60vw;
     margin: auto;
 }
@@ -144,7 +144,7 @@ Styles pantone of the year
 
 /* 13 - Déclaration CSS qui donne sa couleur de fond 
    au titre du bloc pantone de l'année 2019 */
-.year-2019 h3 {
+.year-2020 + div h3 {
     background: #ff6f61;
 }
 
@@ -179,7 +179,7 @@ indice : utiliser les pseudo-classes  :hover sur les h3 des différents blocs
 .year-2020 .ref:hover {
     background: #0f4c81;
 }
-.year-2019 .ref:hover {
+.year-2020 + div .ref:hover {
     background: #ff6f61;
 }
 .year-2018 .ref:hover {
