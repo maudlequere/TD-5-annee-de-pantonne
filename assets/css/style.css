@@ -148,6 +148,9 @@ div.pantone-of-the-year-item p.ref+p {
     background: #ff6f61;
 }
 
+/*Peut également se coder de cette manière :
+.pantone-of-the-year-item h3 si ça ne marche pas, ajouter aux questions 12 à 16 div.pantone-of-the-year.yearx h3*/
+
 /* 14 - Déclaration CSS qui donne sa couleur de fond 
    au titre du bloc pantone de l'année 2018 */
 .year-2018 h3 {
@@ -176,19 +179,19 @@ Pantone de l'année deviennent de la couleur associée au survol des blocs
 indice : utiliser les pseudo-classes  :hover sur les h3 des différents blocs
 */
 
-.year-2020 .ref:hover {
-    background: #0f4c81;
+.year-2020:hover .ref {
+    color: #0f4c81;
 }
-.year-2020 + div .ref:hover {
-    background: #ff6f61;
+.year-2020 + div:hover .ref {
+    color: #ff6f61;
 }
-.year-2018 .ref:hover {
-    background: #604c8d;
+.year-2018:hover .ref{
+    color: #604c8d;
 }
-.year-2017 .ref:hover {
-    background: #88b04b;
+.year-2017:hover .ref{
+    color: #88b04b;
 }
-.year-2016 .ref:hover {
-    background: rgb(147, 169, 209);
-    background: linear-gradient(90deg, rgba(147, 169, 209, 1) 0%, rgba(147, 169, 209, 1) 50%, rgba(247, 202, 202, 1) 50%, rgba(247, 202, 202, 1) 100%);
+.year-2016:hover .ref {
+    color: rgb(147, 169, 209);
+    color: linear-gradient(90deg, rgba(147, 169, 209, 1) 0%, rgba(147, 169, 209, 1) 50%, rgba(247, 202, 202, 1) 50%, rgba(247, 202, 202, 1) 100%);
 }
